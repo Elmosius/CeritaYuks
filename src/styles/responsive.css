@@ -1,0 +1,157 @@
+/*****************************************/
+/* Header */
+/*****************************************/
+
+@media (max-width: 992px) {
+  .main-header {
+    padding: 0.5rem 5.5rem;
+    background-color: var(--color-2);
+  }
+
+  .navigation-drawer {
+    width: 250px;
+    padding: 2rem 2rem;
+    background-color: var(--color-2);
+  }
+
+  .drawer-button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-header {
+    padding: 0.5rem 2rem;
+  }
+}
+
+/*****************************************/
+/* Main */
+/*****************************************/
+
+/* login */
+@media (max-width: 992px) {
+  .login-container {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .login-container {
+    padding: 5rem 2rem;
+  }
+}
+
+/* Home */
+@media (max-width: 992px) {
+  .container.home-section {
+    padding: 5rem 5.5rem;
+  }
+
+  .home-title {
+    font-size: 1.2rem;
+  }
+
+  .home-desc {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .container.home-section {
+    padding: 5rem 4rem;
+  }
+
+  .story-image {
+    height: 150px;
+  }
+
+  .home-title {
+    font-size: 1.1rem;
+  }
+
+  .home-desc {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .container.home-section {
+    padding: 5rem 2rem;
+  }
+
+  .story-image {
+    height: 150px;
+  }
+}
+
+/* home-detail */
+@media (max-width: 1024px) {
+  .story-detail-section {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 425px) {
+  .story-detail-section {
+    max-width: 300px;
+  }
+
+  img.story-image-detail {
+    height: 200px;
+  }
+
+  #map {
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .story-detail-section {
+    max-width: 250px;
+  }
+
+  img.story-image-detail {
+    height: 150px;
+  }
+
+  #story-detail-content + #map {
+    height: 150px;
+  }
+}
+
+/* create */
+@media (max-width: 1024px) {
+  .container.create-section {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container.create-section {
+    max-width: 300px;
+  }
+
+  .map-coordinates {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  #photo-preview-container img {
+    max-height: 150px;
+  }
+
+  #camera-select {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container.create-section {
+    max-width: 250px;
+  }
+
+  #photo-preview-container img {
+    max-height: 125px;
+  }
+}

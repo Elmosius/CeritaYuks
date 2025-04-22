@@ -1,0 +1,2 @@
+APP_URL=https://ceritayuks.netlify.app/
+MAP_SERVICE_API_KEY=ad0wKyviOlkUcCPCoBwg

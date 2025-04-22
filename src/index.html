@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <title>Cerita Yuk</title>
+
+    <!-- manifest -->
+    <link rel="manifest" href="app.webmanifest" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <button id="skip-link" class="skip-link">Skip to content</button>
+      <div class="main-header container">
+        <a class="brand-name" href="#/">CeritaYuk</a>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list"></ul>
+        </nav>
+
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <main tabindex="-1" id="main-content" class="main-content"></main>
+
+    <footer>
+      <div class="container">
+        <p class="copyright">© 2025 Copyright by CeritaYuk</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./scripts/index.js"></script>
+  </body>
+</html>
